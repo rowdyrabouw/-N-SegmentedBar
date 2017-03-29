@@ -33,3 +33,6 @@ always green
 Android
 always green underline
 ```
+
+
+![screenshots](https://nativescript.nl/img/segmentedbar.gif)

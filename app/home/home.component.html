@@ -1,0 +1,11 @@
+<ActionBar title="Home" class="action-bar"></ActionBar>
+
+<StackLayout style="width: 90%">
+    <SegmentedBar borderColor="#8AC215" selectedBackgroundColor="#8AC215" #sb [items]="recipeSteps" selectedIndex="0" (selectedIndexChange)="changeTab(sb.selectedIndex)"></SegmentedBar>
+    <Button text="Go to recipe detail" (tap)="goToRecipe(1)"></Button>
+    <Label text="iOS" style="font-weight: bold;"></Label>
+    <Label text="always green" style="padding-bottom: 20;"></Label>
+    <Label text="Android" style="font-weight: bold;"></Label>
+    <Label text="first time: blue underline"></Label>
+    <Label text="back from detail: green underline ??!?"></Label>
+</StackLayout>
